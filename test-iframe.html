@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111b15">
+<title>ORTO Hub — Test iframe Checklist</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#111b15;color:#edf5ec}
+body{display:flex;flex-direction:column;min-height:100dvh}
+header{padding:calc(10px + env(safe-area-inset-top)) 14px 10px;background:#17291d;border-bottom:1px solid #395441}
+header .top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+h1{font-size:16px;line-height:1.25;margin:0}p{margin:4px 0 0;color:#bed3c1;font-size:12px}
+a{color:#c0efc7;text-decoration:underline;text-underline-offset:3px}
+.notice{padding:9px 14px;color:#cadaca;background:#1b2b20;font-size:12px;line-height:1.4}
+.viewer{flex:1;min-height:320px;position:relative;background:#fff}
+iframe{border:0;display:block;width:100%;height:100%;min-height:320px;background:#fff}
+footer{padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:space-between;gap:12px;background:#17291d;border-top:1px solid #395441;font-size:12px}
+footer span{color:#bacbbc}
+</style>
+</head>
+<body>
+<header><div class="top"><div><h1>🌱 THE DREAM p.g.a.</h1><p>ORTO Hub · Esperimento Checklist in pagina</p></div><a href="./">‹ Hub</a></div></header>
+<div class="notice">TEST ISOLATO · Nessuna modifica alla Checklist. Se compare una pagina bianca, un errore Google o un accesso negato, l'incorporamento potrebbe essere bloccato. Non inserire credenziali in schermate inattese.</div>
+<main class="viewer">
+<iframe title="Checklist — test incorporamento" referrerpolicy="strict-origin-when-cross-origin" src="https://script.google.com/macros/s/AKfycbyhyfrpX966z3a19D44ho6wJCsVEArrEaJQnCeLSW7qxafbEGn5v2HsTAQ5uuPoqY_mfA/exec"></iframe>
+</main>
+<footer><span>La comparsa della pagina, non il caricamento tecnico, è il test.</span><a href="https://script.google.com/macros/s/AKfycbyhyfrpX966z3a19D44ho6wJCsVEArrEaJQnCeLSW7qxafbEGn5v2HsTAQ5uuPoqY_mfA/exec" target="_blank" rel="noopener noreferrer">Apri normalmente</a></footer>
+</body>
+</html>
